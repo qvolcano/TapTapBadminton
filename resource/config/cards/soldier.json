@@ -1,0 +1,9 @@
+{
+    "type": "minion",
+    "name": "士兵",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "desc": "召唤一个 1/1 随从（Demo：新召唤随从本回合不可攻击）。"
+}
+

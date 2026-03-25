@@ -1,0 +1,16 @@
+{
+    "type": "spell",
+    "targetType": "unit",
+    "name": "火焰打击",
+    "cost": 2,
+    "uses": 1,
+    "desc": "对敌方英雄造成 3 点伤害。",
+    "tags": [
+        {
+            "tag": "SPELL",
+            "trigger": "spell",
+            "targetType": "unit",
+            "script": "task_spell_damage(3)"
+        }
+    ]
+}

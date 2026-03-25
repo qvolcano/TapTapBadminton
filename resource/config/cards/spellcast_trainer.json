@@ -1,0 +1,10 @@
+{
+    "type": "minion",
+    "name": "法术教练",
+    "cost": 1,
+    "attack": 0,
+    "health": 1,
+    "spellCastAttackGain": 1,
+    "desc": "当任意法术牌发动时，自身攻击+1。"
+}
+

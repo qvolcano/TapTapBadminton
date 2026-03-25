@@ -1,0 +1,35 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,Basic_fui,Basic_atlas0_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "Basic_fui",
+			"type": "bin",
+			"url": "assets/fairy/Basic.fui"
+		},
+		{
+			"name": "Basic_atlas0_png",
+			"type": "image",
+			"url": "assets/fairy/Basic_atlas0.png"
+		}
+	]
+}

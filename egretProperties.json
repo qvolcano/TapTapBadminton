@@ -1,0 +1,19 @@
+{
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "fairygui"
+		}
+	]
+}

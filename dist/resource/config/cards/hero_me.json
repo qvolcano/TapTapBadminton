@@ -1,0 +1,8 @@
+{
+    "type": "hero",
+    "name": "我方英雄",
+    "maxHealth": 30,
+    "armor": 0,
+    "desc": ""
+}
+

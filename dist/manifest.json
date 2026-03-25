@@ -1,0 +1,18 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.min.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/egret/egret.js",
+		"libs/modules/game/game.min.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.min.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.min.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/fairygui/fairygui.min.js",
+		"libs/modules/fairygui/fairygui.js"
+	],
+	"game": [
+		"assets/index-DqeMubhw.js"
+	]
+}

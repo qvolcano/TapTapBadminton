@@ -1,0 +1,75 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,dule_card_hero_me_json,dule_card_hero_other_json,dule_card_soldier_json,dule_card_fireball_json,dule_card_spellcast_trainer_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "base_fui",
+			"type": "bin",
+			"url": "assets/fairy/base.fui"
+		},
+		{
+			"name": "dule_fui",
+			"type": "bin",
+			"url": "assets/fairy/dule.fui"
+		},
+		{
+			"name": "dule_atlas0_1",
+			"type": "image",
+			"url": "assets/fairy/dule_atlas0_1.png"
+		},
+		{
+			"name": "dule_atlas0",
+			"type": "image",
+			"url": "assets/fairy/dule_atlas0.png"
+		},
+		{
+			"name": "dule_atlas0_2",
+			"type": "image",
+			"url": "assets/fairy/dule_atlas0_2.png"
+		},
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "dule_card_hero_me_json",
+			"type": "json",
+			"url": "config/cards/hero_me.json"
+		},
+		{
+			"name": "dule_card_hero_other_json",
+			"type": "json",
+			"url": "config/cards/hero_other.json"
+		},
+		{
+			"name": "dule_card_soldier_json",
+			"type": "json",
+			"url": "config/cards/soldier.json"
+		},
+		{
+			"name": "dule_card_fireball_json",
+			"type": "json",
+			"url": "config/cards/fireball.json"
+		},
+		{
+			"name": "dule_card_spellcast_trainer_json",
+			"type": "json",
+			"url": "config/cards/spellcast_trainer.json"
+		}
+	]
+}
