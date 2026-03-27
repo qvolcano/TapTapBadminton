@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6ppj7jfs">
+  <resources>
+    <component id="li4v0" name="MainView.xml" path="/"/>
+    <component id="li4v1" name="GameView.xml" path="/"/>
+    <image id="zos12" name="smart_slice_105.png" path="/bg/"/>
+    <image id="zos13" name="smart_slice_106.png" path="/bg/"/>
+    <image id="zos14" name="smart_slice_107.png" path="/bg/"/>
+    <image id="zos15" name="smart_slice_108.png" path="/bg/"/>
+    <image id="zos16" name="smart_slice_109.png" path="/bg/"/>
+    <image id="zos17" name="smart_slice_11.png" path="/bg/"/>
+    <image id="zos18" name="smart_slice_110.png" path="/bg/"/>
+    <image id="zos19" name="smart_slice_12.png" path="/bg/"/>
+    <image id="zos1a" name="smart_slice_12_1.png" path="/bg/"/>
+    <image id="zos1b" name="smart_slice_13.png" path="/bg/"/>
+    <image id="zos1c" name="smart_slice_25.png" path="/bg/"/>
+    <image id="zos1d" name="smart_slice_90.png" path="/bg/"/>
+    <component id="zos1e" name="scene_bg.xml" path="/"/>
+    <image id="zos1f" name="n0.png" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

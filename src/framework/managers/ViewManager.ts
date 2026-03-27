@@ -38,9 +38,12 @@ export class ViewManager {
         this.registry.set(name, viewCtor);
     }
 
-    create(name: string, viewCtor: ViewCtor<typeof this.context>): void {
+    create(name: string, viewCtor?: ViewCtor<typeof this.context>): void {
         if (viewCtor == null) {
             viewCtor = this.registry.get(name);
+        }
+        if (viewCtor == null) {
+            throw new Error(`View ${name} not registered.`);
         }
         let view = this.createView(viewCtor);
         view.context = this.context;

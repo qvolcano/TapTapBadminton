@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_zos1" name="btn_start" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="185,528" size="269,79">
+      <Button titleFontSize="41"/>
+    </component>
+  </displayList>
+</component>

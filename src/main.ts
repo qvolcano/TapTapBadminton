@@ -28,6 +28,7 @@
 //////////////////////////////////////////////////////////////////////////////////////
 import { LoadingUI } from "./LoadingUI";
 import { Framework } from "./framework/Framework";
+import { MainView } from "./project/view/MainView";
 class Main extends egret.DisplayObjectContainer {
 
     public constructor() {
@@ -64,11 +65,11 @@ class Main extends egret.DisplayObjectContainer {
     private async runGame() {
         await this.loadResource()
         this.createGameScene();
-        const result = await RES.getResAsync("description_json")
-        this.startAnimation(result);
-        await this.loadFuiPackage("Basic", "Basic_fui", [
-            "Basic_atlas0_png",
-        ]);
+        // const result = await RES.getResAsync("description_json")
+        // this.startAnimation(result);
+        // await this.loadFuiPackage("Basic", "Basic_fui", [
+        //     "Basic_atlas0_png",
+        // ]);
         this.stage.addChild(fgui.GRoot.inst.displayObject);
         const designWidth = 2048;
         const designHeight = 1366;
@@ -78,6 +79,9 @@ class Main extends egret.DisplayObjectContainer {
         fgui.GRoot.inst.viewHeight = designHeight;
         let fm = new Framework();
         fm.viewManager.setContext({ framework: fm });
+        fm.viewManager.register("main", MainView);
+        fm.viewManager.register("game", game
+        
     }
 
     private async loadFuiPackage(resKey: string, fuiKey: string, preloadKeys: string[] = []): Promise<void> {
